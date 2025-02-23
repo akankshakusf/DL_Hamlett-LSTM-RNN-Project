@@ -1,1 +1,1 @@
-# LSTM-RRN-Project-
+# LSTM-RNN-Project

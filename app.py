@@ -6,10 +6,10 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load the LSTM model
-model = load_model('/content/drive/MyDrive/Colab Notebooks/DL_LSTM_RNN Project/next_word_lstm.keras')
+model = load_model('next_word_lstm.keras')
 
 # Load the tokenizer
-with open('/content/drive/MyDrive/Colab Notebooks/DL_LSTM_RNN Project/tokenizer.pkl', 'rb') as handle:
+with open('tokenizer.pkl', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Function to predict the next word based on input text
